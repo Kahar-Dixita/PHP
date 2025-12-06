@@ -1,0 +1,15 @@
+:root{
+  --bg: #F7EDE7;
+  --card: #CDB8C8;
+  --accent: #E6C57A;
+  --mint: #C9E7D7;
+  --coral: #F6B6A8;
+  --dark: #6B5A4A;
+}
+body{background:var(--bg);font-family:Segoe UI, Roboto, Arial, sans-serif;color:var(--dark);padding-bottom:40px;}
+.navbar{background:var(--card);box-shadow:0 2px 6px rgba(0,0,0,0.06);}
+.card{background:rgba(255,255,255,0.75);border-radius:12px;padding:16px;margin-bottom:16px}
+.btn-accent{background:var(--accent);border:none;color:#2b2b2b}
+.alert-budget{background:linear-gradient(90deg,var(--coral),var(--mint));padding:10px;border-radius:8px}
+.small-muted{font-size:0.9rem;color:#4b3f3a}
+.table td, .table th{vertical-align:middle}
